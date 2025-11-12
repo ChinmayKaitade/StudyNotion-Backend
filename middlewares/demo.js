@@ -13,8 +13,8 @@ exports.isDemo = async (req, res, next) => {
   console.log(`Checking Demo Status for email: ${req.user.email}`); // 1. Identify the demo users by their emails
 
   if (
-    req.user.email === "kumarhimanshusangwan@gmail.com" ||
-    req.user.email === "1234@gmail.com"
+    req.user.email === "chinmaykaitade1806@gmail.com" ||
+    req.user.email === "123456"
   ) {
     // 2. If the user is a demo account, block the request
     return res.status(401).json({

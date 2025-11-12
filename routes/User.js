@@ -13,11 +13,11 @@ const {
 const {
   resetPasswordToken,
   resetPassword,
-} = require("../controllers/resetPassword");
+} = require("../controllers/ResetPassword");
 
 // Middleware
 const { auth, isAdmin } = require("../middlewares/auth");
-const { getAllStudents, getAllInstructors } = require("../controllers/profile");
+const { getAllStudents, getAllInstructors } = require("../controllers/Profile");
 
 // Routes for Login, Signup, and Authentication
 
