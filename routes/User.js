@@ -7,7 +7,7 @@ const {
   login,
   sendOTP,
   changePassword,
-} = require("../controllers/auth");
+} = require("../controllers/Auth");
 
 // Resetpassword controllers
 const {
