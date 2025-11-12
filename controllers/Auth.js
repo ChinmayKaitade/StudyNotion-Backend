@@ -1,6 +1,6 @@
 // sendOtp , signup , login ,  changePassword
 const User = require("../models/User");
-const Profile = require("./../models/profile");
+const Profile = require("./../models/Profile");
 const optGenerator = require("otp-generator");
 const OTP = require("../models/OTP");
 const bcrypt = require("bcrypt");
